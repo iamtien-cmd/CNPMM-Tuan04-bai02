@@ -10,7 +10,12 @@
     "README.md"
   ],
   "scripts": {
-    "build:lib": "rollup -c --bundleConfigAsCjs",
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "build:lib": "rollup -c",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "prepublishOnly": "npm run build:lib"
   },
   "keywords": [
@@ -27,9 +32,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lienhuetien/shopping-cart-mern-lib.git"
+    "url": "https://github.com/iamtien-cmd/CNPMM-Tuan04-bai02.git"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   }
 }
