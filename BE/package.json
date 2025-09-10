@@ -1,0 +1,35 @@
+{
+  "name": "@lienhuetien/shopping-cart-mern-lib",
+  "version": "1.0.0",
+  "description": "A reusable shopping cart UI library built with MERN stack",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build:lib": "rollup -c --bundleConfigAsCjs",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "keywords": [
+    "react",
+    "shopping-cart",
+    "ui-library",
+    "ecommerce",
+    "components",
+    "mern",
+    "typescript",
+    "styled-components"
+  ],
+  "author": "lienhuetien",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lienhuetien/shopping-cart-mern-lib.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

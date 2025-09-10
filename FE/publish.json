@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "prepublishOnly": "npm run build-lib",
+    "publish:npm": "npm publish",
+    "publish:local": "npm pack"
+  }
+}

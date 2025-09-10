@@ -1,0 +1,38 @@
+/* Shopping Cart Library Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.shopping-cart-library {
+  font-family: inherit;
+}
+
+/* CSS Variables for theming */
+:root {
+  --scl-primary: #007bff;
+  --scl-secondary: #6c757d;
+  --scl-success: #28a745;
+  --scl-danger: #dc3545;
+  --scl-warning: #ffc107;
+  --scl-info: #17a2b8;
+  --scl-light: #f8f9fa;
+  --scl-dark: #343a40;
+  
+  --scl-border-radius: 0.375rem;
+  --scl-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
